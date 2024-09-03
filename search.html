@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iBlog - Search</title>
+    <link rel="shortcut icon" href="./Blog - Img/feature7.jpg" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/utility.css" />
+    <link rel="stylesheet" href="./CSS/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav max-w">
+        <h1><a target="_blank" href="index.html">iBlog</a></h1>          <ul class="full-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+          <form class="full-menu" action="
+            search.html">
+            <input type="search" placeholder="Article Search">
+            <button id="nav-btn">Search</button>
+          </form>
+          <i id="hamberger" class="fa-solid fa-bars"></i>
+      </div>
+      <div class="sub-nav">
+        <i id="cross" class="fa-solid fa-x"></i>
+        <ul class="full-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <form class="full-menu" action="search.html">
+          <input type="search" placeholder="Article Search">
+          <button id="nav-btn">Search</button>
+        </form>
+      </div>
+      <div class="home-article max-w">
+        <h2>Search results for "query" (0.03 seconds)</h2>
+        <div class="home-article-inner">
+          <div id="article1" class="article">
+            <div class="article-left">
+              <img src="./Blog - Img/feature1.jpg" alt="Feature1-img" />
+            </div>
+            <div class="article-right">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem, quo?
+              </h3>
+              <span>Author Name | 07 Janurary | 6 min to read</span>
+            </div>
+          </div>
+          <div id="article2" class="article">
+            <div class="article-right">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem, quo?
+              </h3>
+              <span>Author Name | 08 Janurary | 6 min to read</span>
+            </div>
+            <div class="article-left">
+              <img src="./Blog - Img/feature3.jpg" alt="Feature3-img" />
+            </div>
+          </div>
+          <div id="article3" class="article">
+            <div class="article-left">
+              <img src="./Blog - Img/feature2.jpg" alt="Feature2-img" />
+            </div>
+            <div class="article-right">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem, quo?
+              </h3>
+              <span>Author Name | 09 Janurary | 6 min to read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Copyright ©️ iBlog.com</p>
+        <p><a href="index.html">www.iBlog.com</a></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
